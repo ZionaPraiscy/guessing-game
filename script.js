@@ -7,7 +7,7 @@ function checkGuess() {
 
     let guess = parseInt(userInput.value);
     if (guess === random) {
-        gameResult.textContent = "YOU WON!";
+        gameResult.textContent = "CORRECT! YOU GUESSED IT!";
         gameResult.style.backgroundColor = "green";
     } else if (guess > random) {
         gameResult.textContent = "TOO HIGH! TRY AGAIN.";
@@ -21,3 +21,4 @@ function checkGuess() {
     }
 
 }
+
