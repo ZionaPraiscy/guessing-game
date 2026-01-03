@@ -1,7 +1,7 @@
 let gameResult = document.getElementById("gameResult");
 let userInput = document.getElementById("userInput");
 
-let random = Math.ceil(Math.random() * 10);
+let random = Math.ceil(Math.random() * 100);
 
 function checkGuess() {
 
@@ -19,4 +19,5 @@ function checkGuess() {
         gameResult.textContent = "Invalid Input.";
         gameResult.style.backgroundColor = "red";
     }
+
 }
